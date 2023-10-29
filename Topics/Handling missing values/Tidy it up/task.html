@@ -1,0 +1,28 @@
+<h2>Tidy it up!</h2>
+<div class="step-text">
+<p></p>
+<p>There is some new information about the flats discussed in the topic.</p>
+<pre><code class="language-no-highlight">    baby  silence_index
+0      0            NaN
+1      1            0.7
+2      0            0.0
+3      0            NaN
+4      0            NaN
+5      1            0.2
+6      0            0.2
+7      0            0.2
+8      0            0.3
+9      1            0.5
+10     0            0.4
+11     0            NaN
+12     0            0.6
+13     0            0.1
+14     1            0.3
+15     0            NaN</code></pre>
+<ul>
+<li><code class="java">baby</code> is 1, when there is a baby on the same floor, otherwise 0</li>
+<li><code class="java">silence_index</code> is a number from 0 to 1, which indicates the silence level in the flat</li>
+</ul>
+<p><code class="java">silence_index</code> has some <code class="java">NaN</code>s and you are going to replace them with the group average. There are two groups: flats with <code class="java">baby</code> being 0 and the ones with <code class="java">baby </code>being  1.</p>
+<p>Arrange the methods below in the correct order so that the final command replaces <code class="java">NaN</code>s with <strong>the group average</strong> in the <code class="java">silence_index</code> column. The dataset is stored in <code class="java">data</code>.</p>
+</div>
